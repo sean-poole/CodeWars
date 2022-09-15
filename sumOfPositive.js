@@ -18,6 +18,8 @@ function positiveSum(arr) {
     return sum;
 }
 
-// function positiveSum(arr) {
-//     return arr.reduce((sum, x) => sum + (x > 0 ? x : 0), 0);
-// }
+/*
+function positiveSum(arr) {
+    return arr.reduce((sum, x) => sum + (x > 0 ? x : 0), 0);
+}
+*/
