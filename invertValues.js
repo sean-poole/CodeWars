@@ -12,11 +12,11 @@ You can assume that all values are integers. Do not mutate the input array/list.
 */
 
 function invert(array) {
-    return array.map(x => x * -1);
+    return array.map(x => -x);
 }
 
 // Alternate solution:
-// const invert = array => array.map(x => x * -1);
+// const invert = array => array.map(x => -x);
 
 // Test: 
 // test1 = [1, 2, 3, 4, 5]
