@@ -15,5 +15,5 @@ const reverseSeq = n => {
 }
 
 // Test: 
-testNum = 5
-console.log(reverseSeq(testNum))
+// testNum = 5
+// console.log(reverseSeq(testNum))
