@@ -13,11 +13,11 @@ otherwise	                'Hello guest'
 const greet = (name, owner) => name === owner ? "Hello boss" : "Hello guest";
 
 // Test: 
-testName1 = "Daniel"
-testBoss1 = "Daniel"
+// testName1 = "Daniel"
+// testBoss1 = "Daniel"
 
-testName2 = "Greg"
-testBoss2 = "Daniel"
+// testName2 = "Greg"
+// testBoss2 = "Daniel"
 
-console.log(greet(testName1, testBoss1))
-console.log(greet(testName2, testBoss2))
+// console.log(greet(testName1, testBoss1))
+// console.log(greet(testName2, testBoss2))
