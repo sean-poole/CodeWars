@@ -7,5 +7,5 @@ Bob needs a fast way to calculate the volume of a cuboid with three values: the 
 const volume = (l, w, h) => l * w * h;
 
 // Test: 
-console.log(volume(1, 2, 2))
-console.log(volume(6, 2, 5))
+// console.log(volume(1, 2, 2))
+// console.log(volume(6, 2, 5))
