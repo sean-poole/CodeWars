@@ -15,10 +15,10 @@ All of the strings in the array passed to your function will be different length
 const sortArrayByLength = arr => arr.sort((a, b) => a.length - b.length);
 
 // Test: 
-test1 = ["Beg", "Life", "I", "To"]
-test2 = ["", "Moderately", "Brains", "Pizza"]
-test3 = ["Longer", "Longest", "Short"]
+// test1 = ["Beg", "Life", "I", "To"]
+// test2 = ["", "Moderately", "Brains", "Pizza"]
+// test3 = ["Longer", "Longest", "Short"]
 
-console.log(sortArrayByLength(test1))
-console.log(sortArrayByLength(test2))
-console.log(sortArrayByLength(test3))
+// console.log(sortArrayByLength(test1))
+// console.log(sortArrayByLength(test2))
+// console.log(sortArrayByLength(test3))
