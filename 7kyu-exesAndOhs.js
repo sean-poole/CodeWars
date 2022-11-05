@@ -19,7 +19,7 @@ function XO(str) {
             x += 1;
         } else if (c == "o") {
             o += 1;
-        } else; {
+        } else {
             return;
         }
     });
