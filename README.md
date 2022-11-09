@@ -1,4 +1,4 @@
-# CodeWars Challenges: <a href="https://github.com/sean-poole/CodeWars" target="_blank">Visit Here</a>
+# CodeWars Challenges: <a href="https://www.codewars.com/users/sp21" target="_blank">Visit Here</a>
 
 A repository of practice problems. I have completed over 100+ challenges and push 7 solutions every week.
 
