@@ -5,7 +5,7 @@ A repository of practice problems. I have completed over 100+ challenges and pus
 
 ## How It's Made: 
 
-** Tech used:** Javascript
+**Tech used:** Javascript
 
 My morning routine includes solving one problem each day.
 
