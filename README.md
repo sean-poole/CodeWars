@@ -7,7 +7,7 @@ A repository of practice problems. I have completed over 100+ challenges and pus
 
 **Tech used:** Javascript
 
-My morning routine includes solving one problem each day.
+My morning routine includes solving at least one problem each day.
 
 
 ## Optimizations:
