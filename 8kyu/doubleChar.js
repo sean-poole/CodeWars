@@ -13,9 +13,9 @@ Good Luck!
 const doubleChar = str => str.split("").map(c => c + c).join("");
 
 // Test: 
-console.log(doubleChar("abcd"))
-console.log(doubleChar("Adidas"))
-console.log(doubleChar("1337"))
-console.log(doubleChar("illuminati"))
-console.log(doubleChar("123456"))
-console.log(doubleChar("%^&*("))
+// console.log(doubleChar("abcd"))
+// console.log(doubleChar("Adidas"))
+// console.log(doubleChar("1337"))
+// console.log(doubleChar("illuminati"))
+// console.log(doubleChar("123456"))
+// console.log(doubleChar("%^&*("))
