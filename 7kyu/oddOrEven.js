@@ -21,8 +21,8 @@ Output: "even"
 const oddOrEven = array => (array.reduce((acc, c) => acc += c, 0)) % 2 == 0 ? "even" : "odd";
 
 // Test: 
-console.log(oddOrEven([]))
-console.log(oddOrEven([0]))
-console.log(oddOrEven([0, 1, 5]))
-console.log(oddOrEven([0, 1, 2]))
-console.log(oddOrEven([0, -1, -4]))
+// console.log(oddOrEven([]))
+// console.log(oddOrEven([0]))
+// console.log(oddOrEven([0, 1, 5]))
+// console.log(oddOrEven([0, 1, 2]))
+// console.log(oddOrEven([0, -1, -4]))
