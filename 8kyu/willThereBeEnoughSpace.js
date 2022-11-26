@@ -20,6 +20,6 @@ cap = 100, on = 60, wait = 50 --> 10 # He can't fit 10 of the 50 waiting
 const enough = (cap, on, wait) => cap >= on + wait ? 0 : on + wait - cap;
 
 // Test: 
-console.log(enough(10, 5, 5))
-console.log(enough(100, 60, 50))
-console.log(enough(20, 5, 5))
+// console.log(enough(10, 5, 5))
+// console.log(enough(100, 60, 50))
+// console.log(enough(20, 5, 5))
