@@ -24,7 +24,7 @@ In case of an empty array return 0. You will not be tested with invalid input (i
 function countSmileys(arr) {
     const valid = [":)", ";)", ":-)", ";-)", ";~)", ":~)", ":D", ";D", ":-D", ":~D", ";-D", ";~D"];
     let count = 0;
-    arr.forEach(e => {
+    valid.forEach(e => {
         for (let i = 0; i < arr.length; i++) {
             if (e === arr[i]) {
                 count++;
