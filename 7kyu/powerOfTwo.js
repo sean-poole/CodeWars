@@ -17,6 +17,6 @@ Beware of certain edge cases - for example, 1 is a power of 2 since 2^0 = 1 and 
 const isPowerOfTwo = n => Number.isInteger(Math.log2(n));
 
 // Test: 
-console.log(isPowerOfTwo(2))
-console.log(isPowerOfTwo(4096))
-console.log(isPowerOfTwo(5))
+// console.log(isPowerOfTwo(2))
+// console.log(isPowerOfTwo(4096))
+// console.log(isPowerOfTwo(5))
