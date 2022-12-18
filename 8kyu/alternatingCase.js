@@ -14,16 +14,14 @@ Define String.prototype.toAlternatingCase (or a similar function/method such as 
 As usual, your function/method should be pure, i.e. it should not mutate the original string.
 */
 
-function toAlternatingCase(str) {
-    return str.slice().split("").map(e => e === e.toLowerCase() ? e.toUpperCase() : e.toLowerCase()).join("");
-}
+const toAlternatingCase = str => str.slice().split("").map(e => e === e.toLowerCase() ? e.toUpperCase() : e.toLowerCase()).join("");
 
 // Test: 
-console.log(toAlternatingCase("hello world"))
-console.log(toAlternatingCase("HELLO WORLD"))
-console.log(toAlternatingCase("hello WORLD"))
-console.log(toAlternatingCase("HeLLo WoRLD"))
-console.log(toAlternatingCase("12345"))
-console.log(toAlternatingCase("1a2b3c4d5e"))
-console.log(toAlternatingCase("String.prototype.toAlternatingCase"))
-console.log(toAlternatingCase("Hello World"))
+// console.log(toAlternatingCase("hello world"))
+// console.log(toAlternatingCase("HELLO WORLD"))
+// console.log(toAlternatingCase("hello WORLD"))
+// console.log(toAlternatingCase("HeLLo WoRLD"))
+// console.log(toAlternatingCase("12345"))
+// console.log(toAlternatingCase("1a2b3c4d5e"))
+// console.log(toAlternatingCase("String.prototype.toAlternatingCase"))
+// console.log(toAlternatingCase("Hello World"))
