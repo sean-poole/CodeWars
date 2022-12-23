@@ -9,8 +9,8 @@ Unfortunately for you, your drive is very bumpy! Given a string showing either f
 const bump = x => x.split("").filter(e => e === "n").length <= 15 ? "Woohoo!" : "Car Dead";
 
 // Test: 
-console.log(bump("n"))
-console.log(bump("__nn_nnnn__n_n___n____nn__nnn"))
-console.log(bump("nnn_n__n_n___nnnnn___n__nnn__"))
-console.log(bump("_nnnnnnn_n__n______nn__nn_nnn"))
-console.log(bump("______n___n_"))
+// console.log(bump("n"))
+// console.log(bump("__nn_nnnn__n_n___n____nn__nnn"))
+// console.log(bump("nnn_n__n_n___nnnnn___n__nnn__"))
+// console.log(bump("_nnnnnnn_n__n______nn__nn_nnn"))
+// console.log(bump("______n___n_"))
