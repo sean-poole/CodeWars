@@ -10,6 +10,9 @@ flatten([[[1,2,3]]]) // => [[1,2,3]]
 
 const flatten = array => array.flat();
 
+// Alternate solution: 
+// const flatten = array => [].concat(...array);
+
 // Test: 
 // console.log(flatten([]))
 // console.log(flatten([1, 2, 3]))
