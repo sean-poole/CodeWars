@@ -1,5 +1,6 @@
 # CodeWars Challenges: <a href="https://www.codewars.com/users/sp21" target="_blank">Visit Here</a>
 
+<img src="https://www.codewars.com/users/sp21/badges/large">
 A repository of practice problems. I have completed over 100+ challenges and push 7 solutions every week.
 
 
