@@ -13,30 +13,30 @@ xbonacci {1,0,0,0,0,0,1} 10 = {1,0,0,0,0,0,1,2,3,6}
 xbonacci {1,1} produces the Fibonacci sequence
 */
 
-// function Xbonacci(signature, n) {
-//     if (n < signature.length) return signature.slice(0, n);
-
-//     let x = signature.length;
-//     let sequence = signature.slice();
-//     while (sequence.length < n) {
-//         sequence.push(sequence.slice(-x).reduce((acc, c) => acc += c, 0));
-//     }
-
-//     return sequence;
-// }
-
-// Alternate solution: 
 function Xbonacci(signature, n) {
+    if (n < signature.length) return signature.slice(0, n);
+
     let x = signature.length;
-    for (let i = x; i < n; i++) {
-        signature[i] = signature.slice(i - x).reduce((acc, c) => acc += c, 0);
+    let sequence = signature.slice();
+    while (sequence.length < n) {
+        sequence.push(sequence.slice(-x).reduce((acc, c) => acc += c, 0));
     }
 
-    return signature.slice(0, n);
+    return sequence;
 }
 
+// Alternate solution: 
+// function Xbonacci(signature, n) {
+//     let x = signature.length;
+//     for (let i = x; i < n; i++) {
+//         signature[i] = signature.slice(i - x).reduce((acc, c) => acc += c, 0);
+//     }
+
+//     return signature.slice(0, n);
+// }
+
 // Test: 
-console.log(Xbonacci([0,1], 10))
+// console.log(Xbonacci([0,1], 10))
 // console.log(Xbonacci([1,1], 10))
 // console.log(Xbonacci([0,0,0,0,1], 10))
 // console.log(Xbonacci([1,0,0,0,0,0,1], 10))
