@@ -41,6 +41,6 @@ function to_nato(words) {
 // const to_nato = words => words.toLowerCase().split("").filter(e => e !== " ").map(e => nato[e] ? nato[e] : e).join(" ");
 
 // Test: 
-console.log(to_nato("If you can read"))
-console.log(to_nato("Did not see that coming"))
-console.log(to_nato("go for it!"))
+// console.log(to_nato("If you can read"))
+// console.log(to_nato("Did not see that coming"))
+// console.log(to_nato("go for it!"))
