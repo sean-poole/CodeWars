@@ -14,9 +14,8 @@ sumOfIntegersInString(12.4)         // 16
 sumOfIntegersInString(h3ll0w0rld)   // 3
 P - 
 function sumOfIntegersInString(s) {
-    // Iterate through the given string.
-    // Add the variables that can be converted to a number to an array.
-    // Reduce the array and return the sum of the numbers.
+    // Find matches for digits 0-9, otherwise return an empty array.
+    // Reduce the array of digits to get the sum.
 }
 */
 
