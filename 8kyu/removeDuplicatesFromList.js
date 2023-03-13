@@ -34,6 +34,6 @@ function distinct(a) {
 // const distinct = a => [...new Set(a)];
 
 // Test: 
-console.log(distinct([1]))
-console.log(distinct([1, 2]))
-console.log(distinct([1, 1, 2]))
+// console.log(distinct([1]))
+// console.log(distinct([1, 2]))
+// console.log(distinct([1, 1, 2]))
