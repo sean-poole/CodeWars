@@ -5,10 +5,16 @@ Complete the code which should return true if the given object is a single ASCII
 */
 
 /*
-P - 
-R - 
+P - String.
+R - Boolean whether given string is a single letter.
 E - 
+"a".isLetter()      // true
+"7".isLetter()      // false
+"ab".isLetter()     // false
 P - 
+String.prototype.isLetter = function() {
+    // Test if string matches a letter of a-z regardless of casing.
+}
 */
 
 String.prototype.isLetter = function() {
