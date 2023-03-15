@@ -23,9 +23,9 @@ function problem(x) {
 const problem = x => typeof x === "number" ? x * 50 + 6 : "Error";
 
 // Test: 
-console.log(problem("hello"))
-console.log(problem(1))
-console.log(problem(5))
-console.log(problem(0))
-console.log(problem(1.2))
-console.log(problem(""))
+// console.log(problem("hello"))
+// console.log(problem(1))
+// console.log(problem(5))
+// console.log(problem(0))
+// console.log(problem(1.2))
+// console.log(problem(""))
