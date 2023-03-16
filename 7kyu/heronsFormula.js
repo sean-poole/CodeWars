@@ -30,5 +30,5 @@ function heron(a, b, c) {
 }
 
 // Test: 
-console.log(heron(3, 4, 5))
-console.log(heron(6, 8, 10))
+// console.log(heron(3, 4, 5))
+// console.log(heron(6, 8, 10))
