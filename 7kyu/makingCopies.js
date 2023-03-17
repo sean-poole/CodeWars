@@ -24,7 +24,7 @@ list[1] += 5;
 copyList(list)      // [1, 7, 3, 4]
 P - 
 function copyList(l) {
-
+    // Slice and return copy of list.
 }
 */
 
