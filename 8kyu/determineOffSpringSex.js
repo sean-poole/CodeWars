@@ -1,0 +1,30 @@
+/* Determine Offspring Sex Based On Genes XX And XY Chromosomes */
+
+/*
+The male gametes or sperm cells in humans and other mammals are heterogametic and contain one of two types of sex chromosomes. They are either X or Y. The female gametes or eggs however, contain only the X sex chromosome and are homogametic.
+
+The sperm cell determines the sex of an individual in this case. If a sperm cell containing an X chromosome fertilizes an egg, the resulting zygote will be XX or female. If the sperm cell contains a Y chromosome, then the resulting zygote will be XY or male.
+
+Determine if the sex of the offspring will be male or female based on the X or Y chromosome present in the male's sperm.
+
+If the sperm contains the X chromosome, return "Congratulations! You're going to have a daughter."; If the sperm contains the Y chromosome, return "Congratulations! You're going to have a son.";
+*/
+
+/*
+P - String "XX" or "XY". Will always be uppercase.
+R - String "Daughter" if given string is "XX", or string "Son" if given string is XY.
+E - 
+chromosomeCheck("XY")       // "Congratulations! You're going to have a son."
+chromosomeCheck("XX")       // "Congratulations! You're going to have a daughter."
+P - 
+function chromosomeChecK(sperm) {
+    // Check if string ends with "X".
+    // Return "Daughter" if true, otherwise return "Son".
+}
+*/
+
+const chromosomeCheck = sperm => `Congratulations! You're going to have a ${sperm.endsWith("X") ? "daughter" : "son"}.`;
+
+// Test: 
+// console.log(chromosomeCheck("XY"))
+// console.log(chromosomeCheck("XX"))
