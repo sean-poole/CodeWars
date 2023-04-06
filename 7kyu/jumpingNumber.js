@@ -64,6 +64,9 @@ function jumpingNumber(n) {
     return "Jumping!!";
 }
 
+// Alternate solution: 
+// const jumpingNumber = n => n.toString().split("").every((e, i, a) => i < 1 || Math.abs(e - a[i - 1]) === 1) ? "Jumping!!" : "Not!!";
+
 // Test: 
 // console.log(jumpingNumber(1))
 // console.log(jumpingNumber(7))
