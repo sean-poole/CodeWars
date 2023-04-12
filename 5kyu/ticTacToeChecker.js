@@ -23,8 +23,8 @@ R - 0 if the provided game is a tie, 1 if "X" won, 2 if "O" won, -1 if the board
 E - isSolved([[0,0,1],[0,1,2],[2,1,0]])     // -1, game is not finished yet.
 P - 
 function isSolved(board) {
-    // Test for Player "O" possible win outcomes.
     // Test for Player "X" possible win outcomes.
+    // Test for Player "O" possible win outcomes.
     // Test for incomplete game.
     // Else, all squares are occupied and the game is a tie.
 }
