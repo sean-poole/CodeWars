@@ -44,7 +44,7 @@ function isSolved(board) {
         (board[0][2] === 2 && board[1][2] === 2 && board[2][2] === 2)) {
             return 2;
     } else if (board.some(row => row.some(e => e === 0))) {
-        return -1;
+            return -1;
     } else {
             return 0;
     }
