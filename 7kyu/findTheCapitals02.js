@@ -31,10 +31,10 @@ function capital(capitals) {
 const capital = capitals => capitals.map(e => `The capital of ${e.state || e.country} is ${e.capital}`);
 
 // Test: 
-let state_capitals = [{state: 'Maine', capital: 'Augusta'}];
-let country_capitals = [{'country' : 'Spain', 'capital' : 'Madrid'}];
-let mixed_capitals = [{"state" : 'Maine', capital: 'Augusta'}, {country: 'Spain', "capital" : "Madrid"}];
+// let state_capitals = [{state: 'Maine', capital: 'Augusta'}];
+// let country_capitals = [{'country' : 'Spain', 'capital' : 'Madrid'}];
+// let mixed_capitals = [{"state" : 'Maine', capital: 'Augusta'}, {country: 'Spain', "capital" : "Madrid"}];
 
-console.log(capital(state_capitals)[0])
-console.log(capital(country_capitals)[0])
-console.log(capital(mixed_capitals)[1])
+// console.log(capital(state_capitals)[0])
+// console.log(capital(country_capitals)[0])
+// console.log(capital(mixed_capitals)[1])
