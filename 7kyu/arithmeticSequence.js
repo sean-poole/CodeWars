@@ -30,8 +30,8 @@ P -
 function nthterm() {
     // Store arguments into variables.
     // Create an empty array.
-    // Fill the array until n is a referenceable index.
-    // Return the value at index n.
+    // Fill the array until `n` is a referenceable index, starting with `first` and each element incrementing by `c`.
+    // Return the value at index `n`.
 }
 */
 
