@@ -23,6 +23,9 @@ function check(a, x) {
 
 const check = (a, x) => a.some(e => e === x);
 
+// Alternate solution: 
+// const check = (a, x) => a.includes(x);
+
 // Test: 
 // console.log(check([66, 101], 66))
 // console.log(check([80, 117, 115, 104, 45, 85, 112, 115], 45))
