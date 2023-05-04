@@ -16,7 +16,7 @@ Examples:
 */
 
 /* 
-P - One argument as a string. String will always be valid. String will always contain all vowels except one. Case insensitive.
+P - One argument as a string. String will always be valid. String will always contain all vowels except one.
 R - Integer representing the missing vowel's index in "aeiou".
 E - 
 absentVowel("John Doe hs seven red pples under his bsket")              // 0
