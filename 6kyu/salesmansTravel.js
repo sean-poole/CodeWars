@@ -78,9 +78,9 @@ const ad = "123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louis
 const code = "OH 43071,NY 56432,ZP 32908,AE 56210,RE 13000,EX 34342,SW 43098,AA 45521,GG 30654,ZP 32908,AE 56215,RE 13200,EX 34345,"
   + "RE 13222,RE 13001,SW 43198,AA 45522,GG 30655,XX 32321,YY 45098"
 
-console.log(travel(ad, "AA 45522"))
-console.log(travel(ad, "EX 34342"))
-console.log(travel(ad, "EX 34345"))
-console.log(travel(ad, "AA 45521"))
-console.log(travel(ad, "AE 56215"))
-console.log(travel(ad, ""))
+// console.log(travel(ad, "AA 45522"))
+// console.log(travel(ad, "EX 34342"))
+// console.log(travel(ad, "EX 34345"))
+// console.log(travel(ad, "AA 45521"))
+// console.log(travel(ad, "AE 56215"))
+// console.log(travel(ad, ""))
