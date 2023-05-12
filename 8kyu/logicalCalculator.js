@@ -50,10 +50,10 @@ const ops = {
 const logicalCalc = (array, op) => array.reduce(ops[op]);
 
 // Test: 
-console.log(logicalCalc([true, true, true, false], "AND"))
-console.log(logicalCalc([true, true, true, false], "OR"))
-console.log(logicalCalc([true, true, true, false], "XOR"))
-console.log(logicalCalc([true, true, false, false], "AND"))
-console.log(logicalCalc([true, true, false, false], "OR"))
-console.log(logicalCalc([true, true, false, false], "XOR"))
+// console.log(logicalCalc([true, true, true, false], "AND"))
+// console.log(logicalCalc([true, true, true, false], "OR"))
+// console.log(logicalCalc([true, true, true, false], "XOR"))
+// console.log(logicalCalc([true, true, false, false], "AND"))
+// console.log(logicalCalc([true, true, false, false], "OR"))
+// console.log(logicalCalc([true, true, false, false], "XOR"))
 
