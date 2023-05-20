@@ -17,13 +17,13 @@ evenChars("")                   // "invalid string"
 P - 
 function evenChars(string) {
   // Check if the given string is valid. Return "invalid string" if it is less than 2 or greater than 100 characters in length.
-  // Split the given string into an array of characters.
+  // Destructure the given string into an array of characters.
   // Filter the array for even indexed elements.
   // Return array of characters.
 }
 */
 
-const evenChars = string => string.length >= 2 && string.length <= 100 ? string.split("").filter((letter, index) => index % 2 != 0) : "invalid string";
+const evenChars = string => string.length >= 2 && string.length <= 100 ? [...string].filter((e, i) => i % 2) : "invalid string";
 
 // Test: 
 // console.log(evenChars("1234"))
