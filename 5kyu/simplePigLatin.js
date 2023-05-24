@@ -17,6 +17,7 @@ function pigIt(str) {
   // Split the given string into an array where each element is a word.
   // Iterate through the array.
   // Map each word to move the first letter to the end. Then add "ay" to the end.
+  // If the element is a number or special character, return the word.
   // Join the array.
   // Return string.
 }
