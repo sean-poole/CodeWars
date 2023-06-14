@@ -49,9 +49,9 @@ function add(num1, num2) {
 }
 
 // Test: 
-console.log(add(2, 11))
-console.log(add(0, 1))
-console.log(add(0, 0))
-console.log(add(16, 18))
-console.log(add(26, 39))
-console.log(add(122, 81))
+// console.log(add(2, 11))
+// console.log(add(0, 1))
+// console.log(add(0, 0))
+// console.log(add(16, 18))
+// console.log(add(26, 39))
+// console.log(add(122, 81))
