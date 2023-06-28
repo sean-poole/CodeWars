@@ -48,5 +48,5 @@ function collatz(n) {
 // const collatz = n => n > 1 ? 1 + collatz(n % 2 ? (n * 3) + 1 : n / 2) : 1;
 
 // Test: 
-console.log(collatz(20))
-console.log(collatz(15))
+// console.log(collatz(20))
+// console.log(collatz(15))
