@@ -53,6 +53,7 @@ function stringify(list) {
   // Return string.
 }
 */
+
 class Node {
   constructor(data, next = null) {
     this.data = data;
