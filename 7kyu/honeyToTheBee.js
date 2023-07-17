@@ -44,9 +44,9 @@ Bee.prototype.unloadPollen = function() {
 const hive = new Hive();
 const bee = new Bee(11, hive);
 
-console.log(bee.capacity)   // 11
-console.log(hive.pollen)    // 100
+// console.log(bee.capacity)
+// console.log(hive.pollen)
 
-bee.unloadPollen();
+// bee.unloadPollen();
 
-console.log(hive.pollen)    // 111
+// console.log(hive.pollen)
