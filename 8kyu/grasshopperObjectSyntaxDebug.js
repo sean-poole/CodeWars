@@ -50,5 +50,5 @@ const rooms = {
 }
 
 // Test: 
-console.log(rooms.first.description)
-console.log(rooms.second.description)
+// console.log(rooms.first.description)
+// console.log(rooms.second.description)
