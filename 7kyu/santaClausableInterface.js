@@ -53,5 +53,5 @@ const notSanta = {
 }
 
 // Test: 
-console.log(isSantaClausable(santa))
-console.log(isSantaClausable(notSanta))
+// console.log(isSantaClausable(santa))
+// console.log(isSantaClausable(notSanta))
