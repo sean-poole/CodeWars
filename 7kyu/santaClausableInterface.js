@@ -33,7 +33,9 @@ isSantaClausable(santa)       // true
 isSantaClausable(notSanta)    // false
 P - 
 function isSantaClausable(obj) {
-  // 
+  // Create a variable that stores an array of strings which represent the names of methods from a valid Santa object.
+  // Iterate through the array and verify that the given object contains these names as functions.
+  // Return boolean.
 }
 */
 
