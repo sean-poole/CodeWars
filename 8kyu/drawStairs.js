@@ -52,4 +52,3 @@ function drawStairs(n) {
 // console.log(drawStairs(1))
 // console.log(drawStairs(3))
 // console.log(drawStairs(5))
-
