@@ -19,8 +19,8 @@ function getSum(a, b) {
     let max = Math.max(a, b);
     let sum = 0;
 
-    for (min; min <= max; min++) {
-        sum += Math.abs(min);
+    for (let i = min; i <= max; i++) {
+        sum += Math.abs(i);
     }
     return sum;
 }
@@ -34,5 +34,5 @@ function getSum(a, b) {
 
 
 // Test: 
-console.log(getSum(0, -1))
-console.log(getSum(0, 1))
+// console.log(getSum(0, -1))
+// console.log(getSum(0, 1))
