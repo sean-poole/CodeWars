@@ -1,5 +1,5 @@
-## This code does not execute properly. Try to figure out why.
-## SELECT price + amount AS total FROM items
+This code does not execute properly. Try to figure out why.
+SELECT price + amount AS total FROM items
 
 
 
@@ -7,4 +7,4 @@
 ## Multiply the returned values together and store as total.
 
 SELECT price * amount AS total
-FROM items
+FROM items;
