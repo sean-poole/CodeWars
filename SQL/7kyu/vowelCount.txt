@@ -7,6 +7,7 @@ The input string will only consist of lower case letters and/or spaces.
 You are given a table 'getcount' with column 'str', return a table with column 'str' and your result in a column named 'res'.
 
 
+
 ## Get str from the getcount table.
 ## Remove all instances of vowels from str, calculate the length of the modified str, and subtract from the length of the original str.
 ## Store calculated result as res.
