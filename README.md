@@ -1,21 +1,19 @@
 # CodeWars Challenges: <a href="https://www.codewars.com/users/sp21" target="_blank">Visit Here</a>
 
 <img src="https://www.codewars.com/users/sp21/badges/large">
-A repository of practice problems. I have completed over 100+ challenges and push 7 solutions every week.
+This repository contains over 800 completed challenges, with 7 new solutions added weekly as part of my morning routine.
 
 
 ## How It's Made: 
 
-**Tech used:** Javascript
-
-My morning routine includes solving at least one problem each day.
+**Tech used:** Javascript, SQL
 
 
 ## Optimizations:
 
-As I learn more and strengthen my skills, I come back to refactor my code for efficiency and readabliity.
+As I learn more and strengthen my skills, I come back to refactor my code for efficiency and readability.
 
 
 ## Lessons Learned: 
 
-Not having the answer to every problem is okay, as long as there is a willingness to find a solution and take the initiative to improve.
+Through this practice, I've learned that not having the answer to every problem is okay, as long as there is a willingness to find a solution and take the initiative to improve.
