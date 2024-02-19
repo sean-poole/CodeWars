@@ -3,8 +3,8 @@ SELECT price + amount AS total FROM items
 
 
 
-## Get price and amount from items table.
-## Multiply the returned values together and store as total.
+## Get 'price' and 'amount' from 'items' table.
+## Multiply the returned values together. Store product in column 'total'.
 
 SELECT price * amount AS total
 FROM items;
