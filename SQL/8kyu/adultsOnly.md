@@ -1,15 +1,19 @@
-# In your application, there is a section for adults only. You need to get a list of names and ages of users from the users table, who are 18 years old or older.
+# Adults Only
 
-# users table schema
-# name
-# age
+## Task
+In your application, there is a section for adults only. You need to get a list of names and ages of users from the users table, who are 18 years old or older.
 
-# NOTE: Your solution should use pure SQL. Ruby is used within the test cases just to validate your answer.
+users table schema
+name
+age
+
+NOTE: Your solution should use pure SQL. Ruby is used within the test cases just to validate your answer.
 
 
-
-## Get 'name' and 'age' values from table 'users'.
-## Filter the returned rows for 'age' values >= 18.
+## Solution
+Select 'name' and 'age' values from table 'users'.
+Filter the returned rows for 'age' values >= 18.
+Return filtered name and age entries..
 
 SELECT name, age
 FROM users

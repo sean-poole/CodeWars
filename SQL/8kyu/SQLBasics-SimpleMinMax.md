@@ -1,22 +1,25 @@
-# For this challenge you need to create a simple MIN / MAX statement that will return the Minimum and Maximum ages out of all the people.
+# SQL Basics: Simple Min/Max
 
-# people table schema
-# id
-# name
-# age
+## Task
+For this challenge you need to create a simple MIN / MAX statement that will return the Minimum and Maximum ages out of all the people.
 
-# select table schema
-# age_min (minimum of ages)
-# age_max (maximum of ages)
+people table schema
+id
+name
+age
 
-# NOTE: Your solution should use pure SQL. Ruby is used within the test cases to do the actual testing.
+select table schema
+age_min (minimum of ages)
+age_max (maximum of ages)
+
+NOTE: Your solution should use pure SQL. Ruby is used within the test cases to do the actual testing.
 
 
-
-## Get 'age' values from 'people' table.
-## Apply MIN function to returned 'age' and store as 'min_age'.
-## Apply MAX function to returned 'age' and store as 'max_age'.
-## Return filtered columns.
+## Solution
+Get 'age' values from 'people' table.
+Apply MIN function to returned 'age' and store as 'min_age'.
+Apply MAX function to returned 'age' and store as 'max_age'.
+Return filtered columns.
 
 SELECT
   MIN(age) AS age_min,

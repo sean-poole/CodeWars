@@ -1,15 +1,18 @@
-# Write a function that returns the total surface area and volume of a box as an array: [area, volume]
+# Surface Area and Volume of a Box
 
-# -- you are given a table 'box' with columns: width (int), height (int), depth (int)
-# -- return a query with columns: width, height, depth, area (int), volume (int)
-# -- sort results by area ascending, then volume ascending, then width ascending, then height ascending
+## Task
+Write a function that returns the total surface area and volume of a box as an array: [area, volume]
+
+-- you are given a table 'box' with columns: width (int), height (int), depth (int)
+-- return a query with columns: width, height, depth, area (int), volume (int)
+-- sort results by area ascending, then volume ascending, then width ascending, then height ascending
 
 
-
-## Get 'width', 'height', and 'depth' from 'box' table.
-## Calculate area using formula 2lw + 2lh + 2hw. Store result as 'area'.
-## Calculate volume using formula l * w * h. Store result as 'volume'.
-## Order columns by area, volume, width, heigth in ascending order.
+## Solution
+Select 'width', 'height', and 'depth' from 'box' table.
+Calculate area using formula 2lw + 2lh + 2hw. Store result as 'area'.
+Calculate volume using formula l * w * h. Store result as 'volume'.
+Order columns by area, volume, width, heigth in ascending order.
 
 SELECT 
   width, 

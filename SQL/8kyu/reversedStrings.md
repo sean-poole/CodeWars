@@ -1,14 +1,18 @@
-# Complete the solution so that it reverses the string passed into it.
+# Reversed Strings
 
-# 'world'  =>  'dlrow'
-# 'word'   =>  'drow'
+## Task
+Complete the solution so that it reverses the string passed into it.
 
-# -- you are given a table 'solution' with column 'str', return a table with column 'str' and your result in a column named 'res'.
+'world'  =>  'dlrow'
+'word'   =>  'drow'
+
+-- you are given a table 'solution' with column 'str', return a table with column 'str' and your result in a column named 'res'.
 
 
-
-## Get 'str' from 'solution' table.
-## Apply REVERSE function to 'str'. Store modified value in column 'res'.
+## Solution
+Select 'str' from 'solution' table.
+Apply REVERSE function to 'str'. Store modified value in column 'res'.
+Return str and res columns.
 
 SELECT 
   str,

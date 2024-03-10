@@ -1,20 +1,24 @@
-# You will be given a table numbers, with one column number.
+# Even or Odd
 
-# Return a dataset with two columns: number and is_even, where number contains the original input value, and is_even containing "Even" or "Odd" depending on number column values.
+## Task
+You will be given a table numbers, with one column number.
 
-# Numbers table schema
-# * number INT
-# Output table schema
-# * number  INT
-# * is_even STRING
+Return a dataset with two columns: number and is_even, where number contains the original input value, and is_even containing "Even" or "Odd" depending on number column values.
+
+Numbers table schema
+* number INT
+
+Output table schema
+* number  INT
+* is_even STRING
 
 
-
-## Get 'number' from 'numbers' table.
-## Evaluate if the number has a remainder when divided by 2.
-## If the remainder = 0, set value as 'Even'.
-## Else, set value as 'Odd'.
-## Store values in column 'is_even'.
+## Solution
+Select 'number' from 'numbers' table.
+Evaluate if the number has a remainder when divided by 2.
+If the remainder = 0, set value as 'Even'.
+Else, set value as 'Odd'.
+Store values in column 'is_even'.
 
 SELECT
   number,

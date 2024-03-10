@@ -1,18 +1,22 @@
-# You are a border guard sitting on the Canadian border. You were given a list of travelers who have arrived at your gate today. You know that American, Mexican, and Canadian citizens don't need visas, so they can just continue their trips. You don't need to check their passports for visas! You only need to check the passports of citizens of all other countries!
+# On the Canadian Border
 
-# Select names, and countries of origin of all the travelers, excluding anyone from Canada, Mexico, or The US.
+## Task
+You are a border guard sitting on the Canadian border. You were given a list of travelers who have arrived at your gate today. You know that American, Mexican, and Canadian citizens don't need visas, so they can just continue their trips. You don't need to check their passports for visas! You only need to check the passports of citizens of all other countries!
 
-# travelers table schema
-# name
-# country
+Select names, and countries of origin of all the travelers, excluding anyone from Canada, Mexico, or The US.
 
-# NOTE: The United States is written as 'USA' in the table.
-# NOTE: Your solution should use pure SQL. Ruby is used within the test cases just to validate your answer.
+travelers table schema
+name
+country
+
+NOTE: The United States is written as 'USA' in the table.
+NOTE: Your solution should use pure SQL. Ruby is used within the test cases just to validate your answer.
 
 
-
-## Get 'name' and 'country' values from 'travelers' table.
-## Filter the returned rows for countries that do not have a value of 'Canada', 'Mexico', or 'USA'.
+## Solution
+Select 'name' and 'country' values from 'travelers' table.
+Filter the returned rows for countries that do not have a value of 'Canada', 'Mexico', or 'USA'.
+Return name and country of entries with country not equal to 'Canada', 'Mexico', or 'USA'.
 
 SELECT name, country
 FROM travelers

@@ -1,20 +1,23 @@
-# Greetings Grasshopper!
-# Using only SQL, write a query that returns all rows in the custid, custname, and custstate columns from the customers table.
+# SQL Grasshopper: Select Columns
 
-# Table Description for customers:
+## Task
+Greetings Grasshopper!
+Using only SQL, write a query that returns all rows in the custid, custname, and custstate columns from the customers table.
 
-# Column	  Data Type	  Size	  Sample
-# custid	  integer	    8	      4
-# custname	string	    50	    Anakin Skywalker
-# custstate	string	    50	    Tatooine
-# custard	  string	    50	    R2-D2
+Table Description for customers:
 
-# Your solution should contain only SQL.
+Column	  Data Type	  Size	  Sample
+custid	  integer	    8	      4
+custname	string	    50	    Anakin Skywalker
+custstate	string	    50	    Tatooine
+custard	  string	    50	    R2-D2
+
+Your solution should contain only SQL.
 
 
-
-## Get 'custid', 'custname', 'custstate' values from 'customers' table.
-## Return 3 columns.
+## Solution
+Select 'custid', 'custname', 'custstate' values from 'customers' table.
+Return 3 columns.
 
 SELECT custid, custname, custstate
 FROM customers
